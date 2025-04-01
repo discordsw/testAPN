@@ -1,26 +1,106 @@
-department_code;title;phone;address;link;of;job
-06;Formation 1;04 06 00 00 01;01 rue GRETA Nice;https://www.google.fr/GRETA;GRETA;cuisine
-06;Formation 2;04 06 00 00 02;02 rue CFA Nice;https://www.google.fr/CFA;CFA;cuisine
-13;Formation 3;04 13 00 00 01;03 rue Campus Marseille;https://www.google.fr/Campus;Campus;service
-75;Formation 4;01 75 00 00 01;04 rue GRETA Paris;https://www.google.fr/GRETA;GRETA;cuisine
-06;Formation 5;04 06 00 00 03;05 rue GRETA Nice;https://www.google.fr/GRETA;GRETA;cuisine
-92;Formation 21;01 92 00 00 01;21 rue GRETA Puteaux;https://www.example.com/GRETA21;GRETA;cuisine
-34;Formation 22;04 34 00 00 02;22 rue CFA Montpellier;https://www.example.com/CFA22;CFA;hebergement
-69;Formation 23;04 69 00 00 03;23 rue Campus Lyon;https://www.example.com/Campus23;Campus;service
-33;Formation 24;05 33 00 00 04;24 rue GRETA Bordeaux;https://www.example.com/GRETA24;GRETA;cuisine
-75;Formation 25;01 75 00 00 05;25 rue CFA Paris;https://www.example.com/CFA25;CFA;hebergement
-06;Formation 26;04 06 00 00 06;26 rue Campus Nice;https://www.example.com/Campus26;Campus;service
-13;Formation 27;04 13 00 00 07;27 rue GRETA Marseille;https://www.example.com/GRETA27;GRETA;cuisine
-31;Formation 28;05 31 00 00 08;28 rue CFA Toulouse;https://www.example.com/CFA28;CFA;hebergement
-44;Formation 29;02 44 00 00 09;29 rue Campus Nantes;https://www.example.com/Campus29;Campus;service
-67;Formation 30;03 67 00 00 10;30 rue GRETA Strasbourg;https://www.example.com/GRETA30;GRETA;cuisine
-57;Formation 31;03 57 00 00 11;31 rue CFA Metz;https://www.example.com/CFA31;CFA;hebergement
-45;Formation 32;02 45 00 00 12;32 rue Campus Orléans;https://www.example.com/Campus32;Campus;service
-49;Formation 33;02 49 00 00 13;33 rue GRETA Angers;https://www.example.com/GRETA33;GRETA;cuisine
-76;Formation 34;02 76 00 00 14;34 rue CFA Rouen;https://www.example.com/CFA34;CFA;hebergement
-59;Formation 35;03 59 00 00 15;35 rue Campus Lille;https://www.example.com/Campus35;Campus;service
-75;Formation 36;01 75 00 00 16;36 rue GRETA Paris;https://www.example.com/GRETA36;GRETA;cuisine
-34;Formation 37;04 34 00 00 17;37 rue CFA Montpellier;https://www.example.com/CFA37;CFA;hebergement
-31;Formation 38;05 31 00 00 18;38 rue Campus Toulouse;https://www.example.com/Campus38;Campus;service
-69;Formation 39;04 69 00 00 19;39 rue GRETA Lyon;https://www.example.com/GRETA39;GRETA;cuisine
-13;Formation 40;04 13 00 00 20;40 rue CFA Marseille;https://www.example.com/CFA40;CFA;hebergement
+academie;departement;nom;website
+Aix-Marseille;Alpes-de-Haute-Provence (04) – Hautes-Alpes (05);GRETA-CFA Alpes Provence;https://forpro-paca.com/
+Aix-Marseille;Bouches-du-Rhône (13);GRETA-CFA Marseille Méditerranée;https://forpro-paca.com/
+Aix-Marseille;Bouches-du-Rhône (13);GRETA-CFA Provence;https://forpro-paca.com/
+Aix-Marseille;Vaucluse (84);GRETA-CFA Vaucluse;https://forpro-paca.com/
+Amiens;Aisne (02);GRETA de l’Aisne;https://monavenirpro-hdf.fr/notre-reseau/greta-aisne/qui-sommes-nous/
+Amiens;Oise (60);GRETA de l’Oise;https://monavenirpro-hdf.fr/notre-reseau/greta-oise/
+Amiens;Somme (80);GRETA de la Somme;https://monavenirpro-hdf.fr/notre-reseau/greta-somme/
+Besançon;Doubs (25);GRETA Haut-Doubs;https://greta-franche-comte.fr/greta/jura/
+Besançon;Doubs (25);GRETA de Besançon (Doubs);https://www.onisep.fr/ressources/structures-enseignement/bourgogne-franche-comte/jura/greta-cfa-du-jura-site-de-champagnole
+Besançon;Jura (39);GRETA du Jura;https://greta-franche-comte.fr/greta/jura/
+Besançon;Haute-Saône (70);GRETA de Haute-Saône;https://www.onisep.fr/ressources/structures-enseignement/bourgogne-franche-comte/jura/greta-cfa-du-jura-site-de-champagnole
+Besançon;Territoire de Belfort (90);GRETA du Territoire de Belfort;https://www.onisep.fr/ressources/structures-enseignement/bourgogne-franche-comte/jura/greta-cfa-du-jura-site-de-champagnole
+Bordeaux;Dordogne (24);GRETA de la Dordogne;https://greta-cfa-aquitaine.fr/decouvrir-le-reseau-des-greta-en-aquitaine/les-agences-des-pyrenees-atlantiques/
+Bordeaux;Gironde (33);GRETA de la Gironde;https://greta-cfa-aquitaine.fr/decouvrir-le-reseau-des-greta-en-aquitaine/les-agences-des-pyrenees-atlantiques/
+Bordeaux;Landes (40);GRETA des Landes;https://greta-cfa-aquitaine.fr/decouvrir-le-reseau-des-greta-en-aquitaine/les-agences-des-pyrenees-atlantiques/
+Bordeaux;Lot-et-Garonne (47);GRETA du Lot-et-Garonne;https://greta-cfa-aquitaine.fr/decouvrir-le-reseau-des-greta-en-aquitaine/les-agences-des-pyrenees-atlantiques/
+Bordeaux;Pyrénées-Atlantiques (64) – Béarn;GRETA CFA Aquitaine (Béarn);https://lannuaire.service-public.fr/nouvelle-aquitaine/pyrenees-atlantiques/a8be0a97-9d5a-4ba0-914a-62425db6e9b1
+Bordeaux;Pyrénées-Atlantiques (64) – Pays Basque;GRETA CFA Aquitaine (Pays Basque);https://lannuaire.service-public.fr/nouvelle-aquitaine/pyrenees-atlantiques/849bc765-b015-4e64-aeb0-fb3eb12ad6bb
+Caen;Calvados (14);GRETA des Côtes Normandes;https://greta.ac-normandie.fr/
+Caen;Manche (50);GRETA des Côtes Normandes;https://greta.ac-normandie.fr/greta/greta-cotes-normandes/
+Caen;Orne (61);GRETA de l’Orne;https://www.trouvermaformation.fr/organismes/gretaportesnormandesantennedelouviers/2524660
+Clermont-Ferrand;Allier (03) – Cantal (15) – Haute-Loire (43) – Puy-de-Dôme (63);GRETA d’Auvergne;https://greta.ac-clermont.fr/
+Corse;Corse-du-Sud (2A);GRETA de la Corse-du-Sud;https://2b.gretacfa.corsica/formation/action/
+Corse;Haute-Corse (2B);GRETA de la Haute-Corse;https://2a.gretacfa.corsica/formation/action/
+Créteil;Seine-et-Marne (77);GRETA Seine-et-Marne;https://www.forpro-creteil.org/greta93/
+Créteil;Seine-et-Marne (77);GRETA MTI 77 (Métiers Techniques Industrielles);https://www.forpro-creteil.org/formation/greta/gmti77/ 
+Créteil;Seine-Saint-Denis (93);GRETA Seine-Saint-Denis;https://www.forpro-creteil.org/formation/greta/greta93/
+Créteil;Seine-Saint-Denis (93);GRETA MTE 93 (Métiers Techniques Économiques);https://www.forpro-creteil.org/formation/greta/greta93/
+Créteil;Val-de-Marne (94);GRETA du Val-de-Marne;https://www.greta-iledefrance.fr/
+Dijon;Côte-d’Or (21);GRETA 21 (Côte-d’Or);https://formation.centre-valdeloire.fr/organisme/Greta 21/DIJON/18368
+Dijon;Nièvre (58);GRETA 58 (Nièvre);https://www.bourgogne-greta.fr/vos-greta-en-bourgogne/le-greta-58/presentation/
+Dijon;Saône-et-Loire (71);GRETA 71 (Saône-et-Loire);https://www.bourgogne-greta.fr/vos-greta-en-bourgogne/le-greta-71-sud-bourgogne/presentation/
+Dijon;Yonne (89);GRETA 89 (Yonne);https://www.bourgogne-greta.fr/vos-greta-en-bourgogne/le-greta-89/presentation/
+Grenoble;Ardèche (07) – Drôme (26);GRETA Ardèche–Drôme;https://eduscol.education.fr/402/centres-d-examen-asr
+Grenoble;Isère (38);GRETA de l’Isère;https://gretani.fr/ 
+Grenoble;Savoie (73);GRETA de la Savoie;https://greta-savoiehautesavoie.fr/formations-decouvrir
+Grenoble;Haute-Savoie (74);GRETA de la Haute-Savoie;https://greta-savoiehautesavoie.fr/formations-decouvrir
+Lille;Nord (59);GRETA Lille Métropole;https://monavenirpro-hdf.fr/
+Lille;Nord (59);GRETA Grand Hainaut (Valenciennes);https://monavenirpro-hdf.fr/
+Lille;Pas-de-Calais (62);GRETA Artois (Arras);https://monavenirpro-hdf.fr/
+Lille;Pas-de-Calais (62);GRETA Grand Littoral (Calais–Dunkerque);https://monavenirpro-hdf.fr/
+Limoges;Corrèze (19) – Creuse (23) – Haute-Vienne (87);GRETA du Limousin;https://www.greta-du-limousin.fr/
+Lyon;Ain (01);GRETA CFA de l’Ain;https://greta-cfa.ac-lyon.fr/greta/greta-cfa-lain
+Lyon;Loire (42);GRETA CFA de la Loire;https://greta-cfa.ac-lyon.fr/greta/greta-cfa-loire
+Lyon;Rhône (69) (hors métropole);GRETA CFA du Rhône;https://greta-cfa.ac-lyon.fr/greta/greta-cfa-rhone
+Lyon;Rhône (69) (Métropole de Lyon);GRETA CFA Lyon Métropole;https://greta-cfa.ac-lyon.fr/greta/greta-cfa-lyon-metropole
+Montpellier;Aude (11);GRETA de l’Aude;https://maforpro-occitanie.fr/nos-formations?entite=greta
+Montpellier;Gard (30);GRETA du Gard;https://maforpro-occitanie.fr/greta-cfa
+Montpellier;Hérault (34);GRETA de l’Hérault;https://www.gretacfa-montpellier.fr/
+Montpellier;Lozère (48);GRETA de la Lozère;https://maforpro-occitanie.fr/greta-cfa
+Montpellier;Pyrénées-Orientales (66);GRETA des Pyrénées-Orientales;https://maforpro-occitanie.fr/greta-cfa
+Nancy-Metz;Meurthe-et-Moselle (54);GRETA Lorraine Centre (Nancy);https://www.greta-lorraine.fr/reseau/greta-cfa-lorraine-centre/ 
+Nancy-Metz;Meuse (55);GRETA Lorraine Ouest (Bar-le-Duc);https://www.greta-lorraine.fr/reseau/greta-cfa-lorraine-ouest/
+Nancy-Metz;Moselle (57);GRETA Lorraine Nord (Metz);https://www.greta-lorraine.fr/reseau/greta-cfa-lorraine-nord/
+Nancy-Metz;Vosges (88);GRETA Lorraine Sud (Vosges);https://www.greta-lorraine.fr/reseau/greta-cfa-lorraine-sud/
+Nantes;Loire-Atlantique (44);GRETA-CFA Loire-Atlantique;https://www.greta-cfa-paysdelaloire.fr/nos-centres-de-formation/greta-cfa-loire-atlantique/
+Nantes;Maine-et-Loire (49);GRETA-CFA Maine-et-Loire;https://www.greta-cfa-paysdelaloire.fr/nos-centres-de-formation/greta-cfa-49/
+Nantes;Mayenne (53);GRETA-CFA Mayenne;https://www.greta-cfa-paysdelaloire.fr/nos-centres-de-formation/greta-cfa-du-maine/
+Nantes;Sarthe (72);GRETA-CFA Sarthe;https://www.greta-cfa-paysdelaloire.fr/nos-centres-de-formation/greta-cfa-du-maine/
+Nantes;Vendée (85);GRETA-CFA Vendée;https://www.greta-cfa-paysdelaloire.fr/nos-centres-de-formation/greta-cfa-de-vendee/
+Nice;Alpes-Maritimes (06);GRETA-CFA Côte d’Azur;https://forpro-paca.com/
+Nice;Var (83);GRETA du Var;https://forpro-paca.com/
+Orléans-Tours;Cher (18);GRETA du Cher;https://greta-centre.fr/cher
+Orléans-Tours;Eure-et-Loir (28);GRETA d’Eure-et-Loir;https://gretaformation.ac-orleans-tours.fr/
+Orléans-Tours;Indre (36);GRETA de l’Indre;https://gretaformation.ac-orleans-tours.fr/greta-berry
+Orléans-Tours;Indre-et-Loire (37);GRETA d’Indre-et-Loire;https://gretaformation.ac-orleans-tours.fr/greta-val-de-loire
+Orléans-Tours;Loir-et-Cher (41);GRETA de Loir-et-Cher;https://gretaformation.ac-orleans-tours.fr/greta-val-de-loire
+Orléans-Tours;Loiret (45);GRETA du Loiret;https://gretaformation.ac-orleans-tours.fr/
+Paris;Paris (75);GRETA METEHOR Paris;https://gretametehor.com/
+Paris;Paris (75);GRETA CDMA (Création & Design);https://cdma.greta.fr/
+Poitiers;Charente (16);GRETA de la Charente;https://www.ac-poitiers.fr/annuaire/greta-charente
+Poitiers;Charente-Maritime (17);GRETA de Charente-Maritime;https://www.ac-poitiers.fr/annuaire/greta-charente-maritime
+Poitiers;Deux-Sèvres (79);GRETA des Deux-Sèvres;https://www.ac-poitiers.fr/annuaire/greta-deux-sevres
+Poitiers;Vienne (86);GRETA de la Vienne;https://www.ac-poitiers.fr/annuaire/greta-vienne
+Reims;Ardennes (08);GRETA des Ardennes;https://greta-ardennes.fr/
+Reims;Aube (10);GRETA de l’Aube;https://greta-aube.fr/
+Reims;Marne (51);GRETA de la Marne;https://greta-marne.fr/
+Reims;Haute-Marne (52);GRETA de Haute-Marne;https://greta-hautemarne.fr/
+Rennes;Côtes-d’Armor (22);GRETA des Côtes d’Armor;https://www.greta-bretagne.fr/cotes-darmor
+Rennes;Finistère (29);GRETA Bretagne Occidentale;https://www.greta-bretagne.fr/finistere
+Rennes;Ille-et-Vilaine (35);GRETA Est-Bretagne;https://www.greta-bretagne.fr/ille-et-vilaine
+Rennes;Morbihan (56);GRETA Bretagne Sud;https://www.greta-bretagne.fr/morbihan
+Rouen;Eure (27);GRETA de l’Eure;https://www.trouvermaformation.fr/organismes/gretaportesnormandesantennedelouviers/2524660
+Rouen;Seine-Maritime (76);GRETA de Rouen;https://greta.ac-normandie.fr/greta/greta-cotes-normandes/
+Strasbourg;Bas-Rhin (67);GRETA Strasbourg Europe;https://www.greta-cfa-alsace.fr/reseau/greta-strasbourg-europe/
+Strasbourg;Bas-Rhin (67);GRETA Nord Alsace;https://www.greta-cfa-alsace.fr/reseau/greta-nord-alsace/
+Strasbourg;Haut-Rhin (68);GRETA Centre Alsace;https://www.greta-cfa-alsace.fr/reseau/greta-centre-alsace/
+Strasbourg;Haut-Rhin (68);GRETA Alsace Sud;https://www.greta-cfa-alsace.fr/reseau/greta-alsace-sud/
+Toulouse;Ariège (09);GRETA de l’Ariège;https://maforpro-occitanie.fr/greta-cfa
+Toulouse;Aveyron (12);GRETA de l’Aveyron;https://www.meformerenregion.fr/organismes/greta-midi-pyrenees-nord-rodez
+Toulouse;Haute-Garonne (31);GRETA de la Haute-Garonne (Toulouse);https://maforpro-occitanie.fr/greta-cfa
+Toulouse;Gers (32);GRETA du Gers;https://maforpro-occitanie.fr/greta-cfa
+Toulouse;Lot (46);GRETA du Lot;https://www.meformerenregion.fr/organismes/greta-midi-pyrenees-nord-rodez
+Toulouse;Hautes-Pyrénées (65);GRETA des Hautes-Pyrénées;https://www.meformerenregion.fr/organismes/greta-midi-pyrenees-nord-rodez
+Toulouse;Tarn (81);GRETA du Tarn;https://www.meformerenregion.fr/organismes/greta-midi-pyrenees-nord-rodez
+Toulouse;Tarn-et-Garonne (82);GRETA de Tarn-et-Garonne;https://www.meformerenregion.fr/organismes/greta-midi-pyrenees-nord-rodez
+Versailles;Yvelines (78);GRETA des Yvelines;https://www.greta-yvelines.fr/
+Versailles;Essonne (91);GRETA de l’Essonne;https://www.greta-essonne.fr/
+Versailles;Hauts-de-Seine (92);GRETA des Hauts-de-Seine;https://www.greta-92.fr/4-accessibilite
+Versailles;Val-d’Oise (95);GRETA du Val-d’Oise;https://www.greta-95.fr/
+Guadeloupe;Guadeloupe (971);GRETA de la Guadeloupe;https://greta-cfa-gipdaifi.com/greta-guadeloupe
+Guyane;Guyane (973);GRETA de Guyane;https://greta.ins.ac-guyane.fr/
+Martinique;Martinique (972);GRETA de la Martinique;https://gretamartinique.com/formations/
+La Réunion;La Réunion (974);GRETA Réunion;https://www.ac-reunion.fr/annuaire/greta-reunion
+Mayotte;Mayotte (976);GRETA de Mayotte;https://www.ac-mayotte.fr/annuaire/greta-mayotte
